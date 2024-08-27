@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Pseudo-classes</title>
+    <style>
+        div {
+            background-color: aqua;
+            width: 200px;
+            height: 150px;
+            display: inline-block;
+            margin: auto;
+            text-align: center;
+        }
+
+        div:hover {
+            background-color: black;
+            color: white;
+        }
+
+        body > p {
+            display: none;
+        }
+
+        body:hover > p {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="primeiro">1</div>
+    <div id="segundo">2</div>
+    <div id="terceiro">3</div><br/>
+
+    abaixo teremos um paragrafo
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum modi aspernatur quod est at eum exercitationem, aut repellendus ipsam nesciunt ipsa, aliquid laboriosam incidunt error amet beatae, doloribus accusantium!</p>
+
+</body>
+</html>
